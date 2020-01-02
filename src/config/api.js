@@ -200,11 +200,5 @@ export const APIList = [
     typeEn: 'User',
     list: userAPIList,
     icon: 'https://gw.alicdn.com/tfs/TB1wCUvcCf2gK0jSZFPXXXsopXa-200-200.png'
-  },
-  {
-    type: '扩展 API',
-    typeEn: 'Extension',
-    list: extensionAPIList,
-    icon: 'https://gw.alicdn.com/tfs/TB1fg7ucq67gK0jSZFHXXa9jVXa-200-200.png'
   }
 ];
