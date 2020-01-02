@@ -146,16 +146,6 @@ const userAPIList = [
   }
 ];
 
-const extensionAPIList = [
-  {
-    name: 'WindVane',
-    nameEn: 'WindVane',
-    desc: '提供与客户端通讯的机制。支持 WindVane SDK v2.2 以上版本',
-    path: 'windvane',
-    supported: [WEB],
-  }
-];
-
 export const APIList = [
   {
     type: '动画',
@@ -210,11 +200,5 @@ export const APIList = [
     typeEn: 'User',
     list: userAPIList,
     icon: 'https://gw.alicdn.com/tfs/TB1wCUvcCf2gK0jSZFPXXXsopXa-200-200.png'
-  },
-  {
-    type: '扩展 API',
-    typeEn: 'Extension',
-    list: extensionAPIList,
-    icon: 'https://gw.alicdn.com/tfs/TB1fg7ucq67gK0jSZFHXXa9jVXa-200-200.png'
   }
 ];
