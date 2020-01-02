@@ -22,11 +22,11 @@ npm run build
 
 ## Experience
 
-![qrcode](https://img.alicdn.com/tfs/TB1f_W4sQL0gK0jSZFxXXXWHVXa-738-245.jpg)
+![qrcode](https://img.alicdn.com/tfs/TB16nC6sUY1gK0jSZFCXXcwqXXa-738-245.jpg)
 
 ## Screenshot
 
-![screenshot](https://img.alicdn.com/tfs/TB1xbO2sND1gK0jSZFsXXbldVXa-730-730.jpg)
+![screenshot](https://img.alicdn.com/tfs/TB1dka7sG61gK0jSZFlXXXDKFXa-730-730.jpg)
 
 ## License
 
