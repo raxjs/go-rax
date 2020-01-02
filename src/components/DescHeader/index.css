@@ -1,0 +1,35 @@
+.app {
+  background-color: #04152C;
+  box-shadow: 0 2 8 #f0f1f2;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBox {
+  width: 450;
+  height: 100;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.backBox {
+  position: absolute;
+  left: 16;
+  width: 48;
+  height: 100;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  height:36;
+  width: 36;
+  cursor: 'pointer';
+}
+
+.title {
+  font-size: 34;
+  color: #ffffff;
+}

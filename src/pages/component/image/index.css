@@ -1,0 +1,12 @@
+.container {
+  padding: 20rpx;
+}
+.base {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.gif {
+  height: 200rpx;
+  width: 350rpx;
+}

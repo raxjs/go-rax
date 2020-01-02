@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #ffffff;
+  width: 750rpx;
+  height: 100rpx;
+  flex-direction: row;
+  box-shadow: 0 -2rpx 8rpx #f0f1f2;
+  position: fixed;
+  bottom: 0;
+}
+
+.navbarItem {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  font-size: 20rpx;
+  cursor: pointer;
+}
+
+.navbarItemIcon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.navbarItemBase {
+  font-size: 20rpx;
+}
+.navbarItemActive {
+  color: #ffb006;
+}
+
+.navbarItemBlur {
+  color: #666666;
+}
+
+.navbarItemInWeb {
+  transform: scale(0.8);
+}

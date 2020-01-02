@@ -1,0 +1,35 @@
+.view {
+  background-color: #04152C;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.headerBox {
+  width: 500rpx;
+  height: 100rpx;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.backBox {
+  position: absolute;
+  left: 16rpx;
+  width: 48rpx;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.backImg {
+  height: 40rpx;
+  width: 40rpx;
+  cursor: 'pointer';
+}
+
+.title {
+  font-size: 34rpx;
+  color: #ffffff;
+}

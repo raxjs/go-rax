@@ -1,0 +1,10 @@
+.defaultInput {
+  height: 60rpx;
+  color: #000000a6;
+  background-color: #fff;
+  background-image: none;
+  border: 2rpx solid #d9d9d9;
+  border-radius: 4;
+  transition: all .3s;
+  margin: 20rpx;
+}

@@ -1,0 +1,5 @@
+.container {
+  flex-direction: row;
+  cursor: pointer;
+  padding: 20rpx;
+}

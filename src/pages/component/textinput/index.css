@@ -1,0 +1,27 @@
+
+.container {
+  margin: 20rpx;
+}
+.default {
+  height: 60rpx;
+  color: #000000a6;
+  background-color: #fff;
+  background-image: none;
+  border: 2rpx solid #d9d9d9;
+  border-radius: 4rpx;
+  transition: all .3s;
+}
+
+.multiline {
+  height: 150rpx;
+}
+
+.eventLabel {
+  margin: 3rpx;
+  font-size: 24rpx;
+}
+.hashtag {
+  color: "#1890ff";
+  margin: 10rpx;
+  font-weight: "bold";
+}

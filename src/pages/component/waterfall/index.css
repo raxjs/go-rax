@@ -1,0 +1,20 @@
+.app {
+  flex: 1;
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+.descBox {
+  padding: 36rpx;
+  background-color: #3399FF;
+}
+
+.moduleTitle {
+  font-size: 36rpx;
+  color: #ffffff;
+}
+
+.desc {
+  font-size: 24rpx;
+  color: #ffffff;
+}

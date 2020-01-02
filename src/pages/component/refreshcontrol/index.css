@@ -1,0 +1,45 @@
+.container {
+  padding: 20rpx;
+  border: 2rpx solid #dddddd;
+  margin: 20rpx;
+  flex: 1;
+}
+.button {
+  margin: 7rpx;
+  padding: 5rpx;
+  align-items: 'center';
+  background-color: '#eaeaea';
+  border-radius: 3rpx;
+}
+.box {
+  width: 64rpx;
+  height: 64rpx;
+}
+.eventLogBox {
+  padding: 10rpx;
+  margin: 10rpx;
+  height: 80rpx;
+  border-width: 1rpx;
+  border-color: '#f0f0f0';
+  background-color: '#f9f9f9';
+}
+.row {
+  border-color: 'grey';
+  border-width: 1rpx;
+  padding: 20rpx;
+  margin: 5rpx;
+}
+.text {
+  align-self: 'center';
+  color: 'black';
+}
+.refreshView {
+  height: 80rpx;
+  width: 750rpx;
+  justify-content: 'center';
+  align-items: 'center';
+}
+.refreshArrow {
+  font-size: 30rpx;
+  color: '#45b5f0';
+}

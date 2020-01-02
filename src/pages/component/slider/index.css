@@ -1,0 +1,35 @@
+.slider {
+  width: 680rpx;
+  position: 'relative';
+  overflow: 'hidden';
+  height: 500rpx;
+  background-color: '#cccccc'
+}
+.itemWrap {
+  width: 680rpx;
+  height: 500rpx;
+}
+.image {
+  width: 680rpx;
+  height: 500rpx;
+}
+.button {
+  margin-top: 20rpx;
+  width: 340rpx;
+  height: 80rpx;
+}
+.paginationStyle {
+  position: 'absolute';
+  width: 680rpx;
+  height: 40rpx;
+  bottom: 20rpx;
+  left: 0;
+}
+
+.operItem {
+  margin: 20rpx 0;
+  padding: 20rpx;
+  background-color: #ffffff;
+  color: #49a9ee;
+  cursor: pointer;
+}

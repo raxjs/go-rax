@@ -1,0 +1,35 @@
+.sticky {
+  top: 0;
+  margin: 7rpx;
+  height: 64rpx;
+  position: 'sticky';
+  color: '#333333';
+  justify-content: center;
+  align-items: center;
+  background-color: '#cccccc';
+}
+.container {
+  border: 2rpx solid #dddddd;
+  margin: 20rpx;
+}
+.button {
+  margin: 7rpx;
+  padding: 5rpx;
+  align-items: 'center';
+  background-color: '#eaeaea';
+  border-radius: 3rpx;
+  cursor: pointer;
+}
+.box {
+  width: 64rpx;
+  height: 64rpx;
+}
+.eventLogBox {
+  padding: 10rpx;
+  margin: 10rpx;
+  height: 80rpx;
+  border-width: 1rpx;
+  border-color: '#f0f0f0';
+  background-color: '#f9f9f9';
+  justify-content: center;
+}

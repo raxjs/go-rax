@@ -1,0 +1,30 @@
+.operItem {
+  margin: 20rpx 0;
+  padding: 20rpx;
+  background-color: #ffffff;
+  color: #49a9ee;
+  cursor: pointer;
+}
+
+.modal {
+  background-color: #ffffff;
+  position: absolute;
+  top: 300rpx;
+  width: 400rpx;
+  height: 480rpx;
+  left: 175rpx;
+}
+
+.img {
+  width: 400rpx;
+  height: 400rpx;
+  flex-shrink: 0;
+}
+
+.close {
+  border: 2rpx solid #dddddd;
+  height: 80rpx;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx 0;
+}
+
+.link {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.box {
+  margin: 20rpx;
+  padding: 20rpx;
+  border: 2rpx solid #dddddd;
+  border-radius: 6rpx;
+}

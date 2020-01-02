@@ -1,0 +1,134 @@
+.app {
+  background-color: #f5f5f5;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rpx;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0rpx 2rpx 8rpx #f0f1f2;
+}
+
+.logo {
+  margin-right: 20rpx;
+  width: 60rpx;
+  height: 60rpx
+}
+
+.title {
+  font-size: 38rpx;
+  margin-top: 10rpx;
+  margin-bottom: 4rpx;
+  color: #000000;
+  font-weight: bold;
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue',
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', sans-serif;
+}
+
+.listWrap {
+  flex: 1;
+  padding: 30rpx 30rpx 150rpx 30rpx;
+}
+
+.listGroup {
+  background-color: #ffffff;
+  margin-bottom: 30rpx;
+  border-radius: 6rpx;
+  box-shadow: 0 2rpx 8rpx #f0f1f2;
+}
+
+.listGroupItem {
+  flex-direction: row;
+  align-items: center;
+  padding: 16rpx;
+}
+
+.listGroupTitle {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-left: 8rpx;
+}
+
+.listGroupBody {
+}
+
+.itemBox {
+  display: flex;
+  height: 80rpx;
+  padding-left: 36rpx;
+  padding-right: 16rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2rpx solid #dddddd;
+  cursor: pointer;
+}
+
+.listItemContent {
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+.listItemName {
+  margin-right: 8rpx;
+  font-size: 28rpx;
+}
+
+.listItemBrief {
+  color: #cccccc;
+  font-size: 28rpx;
+}
+
+.navbar {
+  background-color: #ffffff;
+  width: 750rpx;
+  height: 100rpx;
+  flex-direction: row;
+  box-shadow: 0 -2rpx 8rpx #f0f1f2;
+  position: fixed;
+  bottom: 0
+}
+
+.navbarItem {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  font-size: 20rpx;
+  cursor: pointer;
+}
+
+.navbarItemIcon {
+  width: 50rpx;
+  height: 50rpx
+}
+
+.navbarItemBase {
+  font-size: 20rpx;
+}
+.navbarItemActive {
+  color: #ffb006;
+}
+
+.navbarItemBlur {
+  color: #666666;
+}
+
+.navbarItemInWeb {
+  transform: scale(0.8);
+}

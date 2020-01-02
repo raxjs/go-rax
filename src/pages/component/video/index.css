@@ -1,0 +1,11 @@
+
+.section {
+  background-color: #ffffff;
+  margin: 32rpx;
+  font-size: 32rpx;
+}
+
+.button {
+  color: #1890ff;
+  cursor: pointer;
+}

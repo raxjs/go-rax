@@ -1,0 +1,9 @@
+.root {
+  width: 680rpx;
+}
+
+.container {
+  border: 2rpx solid #dddddd;
+  padding: 20rpx;
+  margin: 20rpx;
+}

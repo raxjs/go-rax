@@ -1,0 +1,135 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "source": "pages/index/index"
+    },
+    {
+      "path": "/index-api",
+      "source": "pages/index-api/index"
+    },
+    {
+      "path": "/text",
+      "source": "pages/component/text/index"
+    },
+    {
+      "path": "/canvas",
+      "source": "pages/component/canvas/index"
+    },
+    {
+      "path": "/view",
+      "source": "pages/component/view/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/textinput",
+      "source": "pages/component/textinput/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/link",
+      "source": "pages/component/link/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/image",
+      "source": "pages/component/image/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/picture",
+      "source": "pages/component/picture/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/scrollview",
+      "source": "pages/component/scrollview/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/waterfall",
+      "source": "pages/component/waterfall/index",
+      "targets": ["web", "weex"]
+    },
+    {
+      "path": "/animation",
+      "source": "pages/api/animation/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/transition",
+      "source": "pages/api/transition/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/toast",
+      "source": "pages/api/toast/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/alert",
+      "source": "pages/api/alert/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/asyncstorage",
+      "source": "pages/api/asyncstorage/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/chooseimage",
+      "source": "pages/api/chooseimage/index",
+      "targets": ["web", "miniapp"]
+    },
+    {
+      "path": "/clipboard",
+      "source": "pages/api/clipboard/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/confirm",
+      "source": "pages/api/confirm/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/env",
+      "source": "pages/api/env/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/device",
+      "source": "pages/api/device/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/navigate",
+      "source": "pages/api/navigate/index",
+      "targets": ["web", "weex", "miniapp"]
+    },
+    {
+      "path": "/request",
+      "source": "pages/api/request/index",
+      "targets": ["web", "weex", "miniapp"]
+    }
+  ],
+  "window": {
+    "title": "Go Rax",
+    "navigationBarForceEnable": true,
+    "titleBarColor": "#04152C"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ffb006",
+    "items": [{
+      "path": "/",
+      "name": "组 件",
+      "icon": "./assets/img/component_tabbar.png",
+      "activeIcon": "./assets/img/component_active_tabbar.png"
+    }, {
+      "path": "/index-api",
+      "name": "API",
+      "icon": "./assets/img/api_tabbar.png",
+      "activeIcon": "./assets/img/api_active_tabbar.png"
+    }]
+  }
+}

@@ -1,0 +1,17 @@
+
+.container {
+  padding: 20rpx;
+}
+
+.textBlock {
+  font-weight: '500';
+  color: 'blue';
+}
+
+.logBox {
+  padding: 20rpx;
+  margin: 10rpx;
+  border-width: 2rpx;
+  border-color: '#f0f0f0';
+  background-color: '#f9f9f9';
+}
