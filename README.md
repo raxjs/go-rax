@@ -22,14 +22,11 @@ npm run build
 
 ## Experience
 
-<img width="140px" src="https://img.alicdn.com/tfs/TB1LCCZsRv0gK0jSZKbXXbK2FXa-300-390.png" />
-<img width="140px" src="https://img.alicdn.com/tfs/TB1sJCZsKL2gK0jSZPhXXahvXXa-300-390.png" />
-<img width="140px" src="https://img.alicdn.com/tfs/TB15I52sO_1gK0jSZFqXXcpaXXa-300-390.png" />
-<img width="140px" src="https://img.alicdn.com/tfs/TB1DHW4sHY1gK0jSZTEXXXDQVXa-300-390.png" />
+![qrcode](https://img.alicdn.com/tfs/TB16nC6sUY1gK0jSZFCXXcwqXXa-738-245.jpg)
 
 ## Screenshot
-<img width="280px" src="https://img.alicdn.com/tfs/TB1.M12sQL0gK0jSZFAXXcA9pXa-626-1267.jpg" />
-<img width="280px" src="https://img.alicdn.com/tfs/TB1XqO6sHj1gK0jSZFuXXcrHpXa-628-1264.jpg" />
+
+![screenshot](https://img.alicdn.com/tfs/TB1dka7sG61gK0jSZFlXXXDKFXa-730-730.jpg)
 
 ## License
 
