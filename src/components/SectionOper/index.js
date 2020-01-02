@@ -1,10 +1,9 @@
-import { createElement, useEffect } from 'rax';
+import { createElement } from 'rax';
 import View from 'rax-view';
 import SectionOperText from '../SectionOperText';
 import './index.css';
 
-export default function SectionOper({ style, children, onClick, text, ...props }) {
-
+export default function SectionOper({ children, onClick }) {
   return (
     <View
       style={{
@@ -14,10 +13,11 @@ export default function SectionOper({ style, children, onClick, text, ...props }
         justifyContent: 'center',
         alignItems: 'center',
         cursor: 'pointer',
-        fontSize: '30rpx'
+        fontSize: '30rpx',
       }}
       onClick={onClick}
-    ><SectionOperText>{children}</SectionOperText>
+    >
+      <SectionOperText>{children}</SectionOperText>
     </View>
   );
 }

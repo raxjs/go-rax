@@ -4,7 +4,7 @@ import Text from 'rax-text';
 import Image from 'rax-image';
 import styles from '../index.css';
 
-import { isWeb, isWeex, isMiniApp, isWeChatMiniprogram } from 'universal-env';
+import { isWeb, isWeex, isMiniApp, isWeChatMiniProgram } from 'universal-env';
 import { WEB, WEEX, ALI_MINI_APP, WECHAT } from '../../../config/platform';
 
 export default function({ list, isCN, history}) {
@@ -28,7 +28,7 @@ export default function({ list, isCN, history}) {
       if(isMiniApp) {
         return supported.includes(ALI_MINI_APP);
       }
-      if (isWeChatMiniprogram) {
+      if (isWeChatMiniProgram) {
         return supported.includes(WECHAT);
       }
       return false;

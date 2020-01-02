@@ -1,9 +1,8 @@
-import { createElement, useEffect } from 'rax';
+import { createElement } from 'rax';
 
 import View from 'rax-view';
 
-export default function SectionItem({ children, style = {} }) {
-
+export default function SectionItem({ children }) {
   return (
     <View
       style={{

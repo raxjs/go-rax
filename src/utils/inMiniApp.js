@@ -1,4 +1,4 @@
-import { isMiniApp, isWeChatMiniprogram } from 'universal-env';
+import { isMiniApp, isWeChatMiniProgram } from 'universal-env';
 
-const inMiniApp = isMiniApp || isWeChatMiniprogram;
+const inMiniApp = isMiniApp || isWeChatMiniProgram;
 export default inMiniApp;

@@ -1,5 +1,5 @@
 import { createElement } from 'rax';
-import { isWeb, isWeex, isMiniApp, isWeChatMiniprogram } from 'universal-env';
+import { isWeb, isWeex, isMiniApp, isWeChatMiniProgram } from 'universal-env';
 
 import Container from '../../../components/Container';
 import Section from '../../../components/Section';
@@ -25,7 +25,7 @@ export default function App() {
       </Section>
 
       <Section title={'Is WeChat Mini Program : '}>
-        <SectionTextItem>{String(isWeChatMiniprogram)}</SectionTextItem>
+        <SectionTextItem>{String(isWeChatMiniProgram)}</SectionTextItem>
       </Section>
     </Container>
   );

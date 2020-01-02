@@ -3,7 +3,7 @@ import View from 'rax-view';
 import Text from 'rax-text';
 import ScrollView from 'rax-scrollview';
 import styles from './index.css';
-import { isMiniApp, isWeChatMiniprogram } from 'universal-env';
+import { isMiniApp, isWeChatMiniProgram } from 'universal-env';
 
 import Navigator from '../Navigator';
 
@@ -13,14 +13,14 @@ export default function App({ children, title, moduleTitle, desc }) {
       title: moduleTitle
     });
   }
-  if (isWeChatMiniprogram) {
+  if (isWeChatMiniProgram) {
     wx.setNavigationBarTitle({
       title: moduleTitle
     });
   }
   return (
     <View style={styles.app}>
-      {isMiniApp || isWeChatMiniprogram ? null : <Navigator title={title} />}
+      {isMiniApp || isWeChatMiniProgram ? null : <Navigator title={title} />}
       <ScrollView>
         <View style={styles.descBox}>
           <Text style={styles.moduleTitle}>{moduleTitle}</Text>
