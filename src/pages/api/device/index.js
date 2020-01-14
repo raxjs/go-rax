@@ -1,5 +1,5 @@
 import { createElement } from 'rax';
-import { appName, platform, screenWidth, screenHeight, appVersion } from './lib';
+import { appName, platform, screenWidth, screenHeight, appVersion } from 'universal-device';
 
 import Container from '../../../components/Container';
 import Section from '../../../components/Section';
