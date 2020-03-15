@@ -30,6 +30,9 @@ export default function App() {
         <View style={{ ...styles.container, ...{ height: 600 } }}>
           <ScrollView
             ref={scrollView}
+            style={{
+              height: 100
+            }}
             onEndReached={() => setScrollViewEventLog(true)}
           >
             <View style={styles.sticky}>

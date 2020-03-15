@@ -17,7 +17,7 @@ if (!inMiniApp) {
 
 export default function App() {
   const [transitionInfo, setTransitionInfo] = useState({});
-  const animationRef = inMiniApp ? null: useRef();
+  const animationRef = useRef();
 
   const changeWidth = width => {
     const transitionCall = transition(

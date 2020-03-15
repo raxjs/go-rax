@@ -18,33 +18,27 @@
     },
     {
       "path": "/view",
-      "source": "pages/component/view/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/component/view/index"
     },
     {
       "path": "/textinput",
-      "source": "pages/component/textinput/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/component/textinput/index"
     },
     {
       "path": "/link",
-      "source": "pages/component/link/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/component/link/index"
     },
     {
       "path": "/image",
-      "source": "pages/component/image/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/component/image/index"
     },
     {
       "path": "/picture",
-      "source": "pages/component/picture/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/component/picture/index"
     },
     {
       "path": "/scrollview",
-      "source": "pages/component/scrollview/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/component/scrollview/index"
     },
     {
       "path": "/waterfall",
@@ -53,63 +47,52 @@
     },
     {
       "path": "/animation",
-      "source": "pages/api/animation/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/animation/index"
     },
     {
       "path": "/transition",
-      "source": "pages/api/transition/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/transition/index"
     },
     {
       "path": "/toast",
-      "source": "pages/api/toast/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/toast/index"
     },
     {
       "path": "/alert",
-      "source": "pages/api/alert/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/alert/index"
     },
     {
       "path": "/asyncstorage",
-      "source": "pages/api/asyncstorage/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/asyncstorage/index"
     },
     {
       "path": "/chooseimage",
       "source": "pages/api/chooseimage/index",
-      "targets": ["web", "miniapp"]
+      "targets": ["web", "miniapp", "wechat-miniprogram"]
     },
     {
       "path": "/clipboard",
-      "source": "pages/api/clipboard/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/clipboard/index"
     },
     {
       "path": "/confirm",
-      "source": "pages/api/confirm/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/confirm/index"
     },
     {
       "path": "/env",
-      "source": "pages/api/env/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/env/index"
     },
     {
       "path": "/device",
-      "source": "pages/api/device/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/device/index"
     },
     {
       "path": "/navigate",
-      "source": "pages/api/navigate/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/navigate/index"
     },
     {
       "path": "/request",
-      "source": "pages/api/request/index",
-      "targets": ["web", "weex", "miniapp"]
+      "source": "pages/api/request/index"
     }
   ],
   "window": {
