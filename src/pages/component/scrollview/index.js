@@ -8,7 +8,7 @@ import Container from '../../../components/Container';
 import Section from '../../../components/Section';
 import SectionOper from '../../../components/SectionOper';
 
-let THUMBS = [];
+const THUMBS = [];
 for (let i = 0; i < 20; i++) THUMBS.push(i);
 
 export default function App() {
@@ -27,11 +27,11 @@ export default function App() {
       desc={'A container for rendering lists.'}
     >
       <Section title={'Vertical ScrollView'}>
-        <View style={{ ...styles.container, ...{ height: 600 } }}>
+        <View style={{ ...styles.container, height: '600rpx' }}>
           <ScrollView
             ref={scrollView}
             style={{
-              height: 100
+              height: '100rpx',
             }}
             onEndReached={() => setScrollViewEventLog(true)}
           >
@@ -67,16 +67,18 @@ export default function App() {
           <ScrollView
             ref={horizontalScrollView}
             style={{
-              height: 100,
+              height: '100rpx',
             }}
             horizontal={true}
             onEndReached={() => setHorizontalScrollViewEventLog(true)}
           >
-            {THUMBS.map((val, i) => (
-              <View style={styles.button} key={i}>
-                <View style={styles.box} />
-              </View>
-            ))}
+            <View style={{ flexDirection: 'row' }}>
+              {THUMBS.map((val, i) => (
+                <View style={styles.button} key={i}>
+                  <View style={styles.box} />
+                </View>
+              ))}
+            </View>
           </ScrollView>
 
           <View style={styles.button}>
