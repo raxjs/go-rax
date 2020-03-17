@@ -136,16 +136,6 @@ const monitoringAPIList = [
   }
 ];
 
-const userAPIList = [
-  {
-    name: '用户信息',
-    nameEn: 'User',
-    desc: '提供了一系列用户相关的 api',
-    path: 'user',
-    supported: [WEB, WEEX],
-  }
-];
-
 export const APIList = [
   {
     type: '动画',
@@ -188,17 +178,5 @@ export const APIList = [
     typeEn: 'Storage',
     list: dataAPIList,
     icon: 'https://gw.alicdn.com/tfs/TB1QU.ucEz1gK0jSZLeXXb9kVXa-200-200.png'
-  },
-  {
-    type: '监控埋点',
-    typeEn: 'Monitoring',
-    list: monitoringAPIList,
-    icon: 'https://gw.alicdn.com/tfs/TB1PhcucuL2gK0jSZPhXXahvXXa-200-200.png'
-  },
-  {
-    type: '用户登录',
-    typeEn: 'User',
-    list: userAPIList,
-    icon: 'https://gw.alicdn.com/tfs/TB1wCUvcCf2gK0jSZFPXXXsopXa-200-200.png'
   }
 ];

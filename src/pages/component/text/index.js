@@ -1,4 +1,4 @@
-import { createElement, render, useState } from 'rax';
+import { createElement } from 'rax';
 import View from 'rax-view';
 import Text from 'rax-text';
 import styles from './index.css';
@@ -30,9 +30,7 @@ export default function App() {
             style={{
               color: '#1890ff',
             }}
-          >
-            mixed
-          </Text>
+          >mixed</Text>
         </View>
       </Section>
 
@@ -43,10 +41,8 @@ export default function App() {
             style={{
               textOverflow: 'ellipsis',
             }}
-          >
-            Single line text exceeds truncated text. Single line text exceeds
-            truncated text. Single line text exceeds truncated text.
-          </Text>
+          >Single line text exceeds truncated text. Single line text exceeds
+            truncated text. Single line text exceeds truncated text.</Text>
         </View>
       </Section>
 
@@ -57,12 +53,10 @@ export default function App() {
             style={{
               textOverflow: 'ellipsis',
             }}
-          >
-            Multiline text exceeds truncated text, exceeds truncated text,
+          >Multiline text exceeds truncated text, exceeds truncated text,
             exceeds truncated text, exceeds truncated text. Multiline text
             exceeds truncated text, exceeds truncated text, exceeds truncated
-            text, exceeds truncated text.
-          </Text>
+            text, exceeds truncated text.</Text>
         </View>
       </Section>
 
@@ -70,17 +64,13 @@ export default function App() {
         <View style={styles.container}>
           <Text style={{ textDecoration: 'underline' }}>Text underline</Text>
           <Text style={{ textDecorationLine: 'none' }}>Not underlined</Text>
-          <Text style={{ textDecoration: 'line-through' }}>
-            Text strikethrough
-          </Text>
+          <Text style={{ textDecoration: 'line-through' }}>Text strikethrough</Text>
         </View>
       </Section>
 
       <Section title={'The text line height: '}>
         <View style={styles.container}>
-          <Text style={{ lineHeight: '120rpx' }}>
-            Line height of 120rem, multi - line folding effect of this text.
-          </Text>
+          <Text style={{ lineHeight: '120rpx' }}>Line height of 120rem, multi - line folding effect of this text.</Text>
         </View>
       </Section>
     </Container>
