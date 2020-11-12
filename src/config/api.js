@@ -1,3 +1,4 @@
+import { isKraken } from 'universal-env';
 import { WEB, WEEX, ALI_MINI_APP, WECHAT } from './platform';
 
 const animationAPIList = [
@@ -16,6 +17,11 @@ const animationAPIList = [
     supported: [WEB, WEEX, ALI_MINI_APP, WECHAT],
   },
 ];
+
+if (isKraken) {
+  // Disable animation for Kraken.
+  animationAPIList.shift(); 
+}
 
 const feedbackAPIList = [
   {
@@ -61,6 +67,11 @@ const mediaAPIList = [
   }
 ];
 
+if (isKraken) {
+  // Disable chooseimage for Kraken.
+  mediaAPIList.shift(); 
+}
+
 const networkAPIList = [
   {
     name: '网络请求',
@@ -69,13 +80,13 @@ const networkAPIList = [
     path: 'request',
     supported: [WEB, WEEX, ALI_MINI_APP, WECHAT],
   },
-  {
-    name: 'MTOP',
-    nameEn: 'MTOP',
-    desc: 'MTOP（Mobile Taobao Open Platform）为客户端和服务端提供了一致的API平台，集成了大量的业务接口，支持客户端、H5的接入',
-    path: 'mtop',
-    supported: [WEB, WEEX, ALI_MINI_APP],
-  },
+  // {
+  //   name: 'MTOP',
+  //   nameEn: 'MTOP',
+  //   desc: 'MTOP（Mobile Taobao Open Platform）为客户端和服务端提供了一致的API平台，集成了大量的业务接口，支持客户端、H5的接入',
+  //   path: 'mtop',
+  //   supported: [WEB, WEEX, ALI_MINI_APP],
+  // },
 ];
 
 const systemAPIList = [

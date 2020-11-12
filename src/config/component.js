@@ -1,4 +1,4 @@
-import { WEB, WEEX, ALI_MINI_APP, WECHAT } from './platform';
+import { WEB, WEEX, ALI_MINI_APP, WECHAT, KRAKEN } from './platform';
 
 export const basicBasics = [
   {
@@ -74,12 +74,12 @@ export const basicContainers = [
     path: 'waterfall',
     supported: [WEB, WEEX],
   },
-  {
-    name: '可回收容器',
-    nameEn: 'RecyclerView',
-    path: 'recyclerview',
-    supported: [WEB, WEEX],
-  },
+  // {
+  //   name: '可回收容器',
+  //   nameEn: 'RecyclerView',
+  //   path: 'recyclerview',
+  //   supported: [WEB, WEEX],
+  // },
 ];
 export const functionComponents = [
   // {

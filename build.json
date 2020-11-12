@@ -3,7 +3,7 @@
     [
       "build-plugin-rax-app",
       {
-        "targets": ["web", "weex", "miniapp", "wechat-miniprogram"],
+        "targets": ["web", "kraken", "weex", "miniapp", "wechat-miniprogram"],
         "miniapp": {
           "constantDir": [
             "src/assets"

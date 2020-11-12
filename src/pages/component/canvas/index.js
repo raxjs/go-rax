@@ -13,7 +13,11 @@ export default function App() {
       ? context.setFillStyle('#49a9ee')
       : (context.fillStyle = '#49a9ee');
     context.fillRect(0, 0, 300, 300);
-    context.draw();
+
+    // Only miniapp needs and has .draw API.
+    if (inMiniApp) {
+      context.draw();
+    }
   }, []);
   return (
     <Container

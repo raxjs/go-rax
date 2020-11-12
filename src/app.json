@@ -43,7 +43,7 @@
     {
       "path": "/waterfall",
       "source": "pages/component/waterfall/index",
-      "targets": ["web", "weex"]
+      "targets": ["web", "weex", "kraken"]
     },
     {
       "path": "/animation",
@@ -106,13 +106,13 @@
     "items": [{
       "path": "/",
       "name": "组 件",
-      "icon": "./assets/img/component_tabbar.png",
-      "activeIcon": "./assets/img/component_active_tabbar.png"
+      "icon": "https://gw.alicdn.com/tfs/TB1GZvp11H2gK0jSZJnXXaT1FXa-200-200.png",
+      "activeIcon": "https://gw.alicdn.com/tfs/TB1Fejan7cx_u4jSZFlXXXnUFXa-200-200.png"
     }, {
       "path": "/index-api",
       "name": "API",
-      "icon": "./assets/img/api_tabbar.png",
-      "activeIcon": "./assets/img/api_active_tabbar.png"
+      "icon": "https://gw.alicdn.com/tfs/TB1kC_v17T2gK0jSZFkXXcIQFXa-200-200.png",
+      "activeIcon": "https://gw.alicdn.com/tfs/TB1fDvf14z1gK0jSZSgXXavwpXa-200-200.png"
     }]
   }
 }

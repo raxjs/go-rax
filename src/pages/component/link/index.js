@@ -1,4 +1,5 @@
 import { createElement } from 'rax';
+import { isKraken } from 'universal-env';
 import Link from 'rax-link';
 import View from 'rax-view';
 import Text from 'rax-text';
@@ -8,6 +9,8 @@ import inMiniApp from '../../../utils/inMiniApp';
 
 import Container from '../../../components/Container';
 import Section from '../../../components/Section';
+
+const KRAKEN_HELLO_RAX = 'https://g.alicdn.com/kraken/kraken-demos/hello-rax/build/kraken/index.js';
 
 export default function App() {
   return (
@@ -22,11 +25,11 @@ export default function App() {
         <View style={styles.container}>
           <Link
             miniappHref={"navigate:/pages/component/view/index"}
-            href={'https://m.taobao.com'}
+            href={isKraken ? KRAKEN_HELLO_RAX : 'https://m.taobao.com'}
             style={styles.link}
             onPress={e => {}}
           >
-            <Text> {!inMiniApp ? 'Jump to the taobao' : 'Jump to the Home'}</Text>
+            <Text> {inMiniApp ? 'Jump to the Home' : isKraken ? 'Jump to Hello Rax' : 'Jump to Taobao'}</Text>
           </Link>
         </View>
       </Section>
@@ -35,7 +38,7 @@ export default function App() {
         <View style={styles.container}>
           <Link
             miniappHref={"navigate:/pages/component/view/index"}
-            href={'https://m.taobao.com'}
+            href={isKraken ? KRAKEN_HELLO_RAX : 'https://m.taobao.com'}
             style={styles.link}
             onPress={e => {
               alert({

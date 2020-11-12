@@ -2,7 +2,9 @@
   background-color: #f5f5f5;
   flex-direction: column;
   flex: 1;
-  min-height: 100vh
+  min-height: 100vh;
+  padding-top: env(safe-area-inset-top, 0);
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }
 
 .sticky {
