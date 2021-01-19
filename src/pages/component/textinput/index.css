@@ -1,9 +1,11 @@
 
 .container {
   margin: 20rpx;
+  display: block;
 }
 .default {
   height: 60rpx;
+  width: 150rpx;
   color: #000000a6;
   background-color: #fff;
   background-image: none;

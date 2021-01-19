@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  padding-top: env(safe-area-inset-top, 0);
 }
 
 .headerBox {
@@ -16,6 +17,7 @@
 
 .backBox {
   position: absolute;
+  bottom: 0;
   left: 16rpx;
   width: 48rpx;
   height: 100rpx;
